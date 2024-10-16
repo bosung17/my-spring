@@ -1,0 +1,11 @@
+package com.ssafy.proxy;
+
+public class Programmer {
+	// 필드는 생략!
+	
+	public void coding() {
+		System.out.println("컴퓨터를 부팅한다."); // 이전 수행 기능
+		
+		System.out.println("열심히 코드를 작성한다."); // 핵심관심사항
+	}
+}
