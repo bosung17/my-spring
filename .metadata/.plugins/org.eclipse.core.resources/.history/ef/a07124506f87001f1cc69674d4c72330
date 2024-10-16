@@ -1,6 +1,0 @@
-package com.ssafy.aop;
-
-// 공통 관심사항을 한 번에 저장할 클래스
-public class MyAspect {
-
-}
