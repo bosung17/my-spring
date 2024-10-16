@@ -1,0 +1,7 @@
+INDEX VERSION 1.134
+C:\Users\cbs98\Documents\SSAFY\Spring\my-spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1754554400.index
+\Spring_Day03_MVC\src\main\java
+C:\Users\cbs98\Documents\SSAFY\Spring\my-spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2436016536.index
+\Spring_Day04_BootPractice1\src\main\java
+C:\Users\cbs98\Documents\SSAFY\Spring\my-spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\162950265.index
+\Spring_Day04_BootPractice1\src\main\java
