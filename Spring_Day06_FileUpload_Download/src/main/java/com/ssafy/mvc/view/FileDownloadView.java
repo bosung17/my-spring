@@ -35,14 +35,15 @@ public class FileDownloadView extends AbstractView {
 
 		////////////////////////////////////////////// 응답 Header 설정
 
+		// 3rd try : 암기의 영역인 것
 		fileName = new String(fileName.getBytes("UTF-8"), "ISO-8859-1"); // 한글이 다른 곳에서 깨질까봐.. -> 안 해도 ㄱㅊ
 
-		response.setHeader("Content-Dispositon", "attachment; fileName=\"" + fileName + "\";");
+		response.setHeader("Content-Disposition", "attachment; fileName=\"" + fileName + "\";");
 		response.setHeader("Content-Transfer-Encoding", "binary");
 
 		//////////////////////////////////////////////
 
-		try (FileInputStream fis = new FileInputStream(file); OutputStream os = response.getOutputStream()) {
+		try (FileInputStream fis = new FileInputStream(file); OutputStream os = response.getOutputStream();) {
 			FileCopyUtils.copy(fis, os);
 		}
 

@@ -35,6 +35,7 @@ public class FileController {
 		if (file != null && file.getSize() > 0) {
 			String fileName = file.getOriginalFilename();
 			
+			// 1st try : img폴더를 resource로 지정하는 코드가 무엇인지 기억나지 않아 다시 본 뒤 작성함
 			Resource resource = resourceLoader.getResource("classpath:/static/img");
 			file.transferTo(new File(resource.getFile(), fileName));
 			

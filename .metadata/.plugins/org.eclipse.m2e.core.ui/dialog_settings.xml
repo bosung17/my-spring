@@ -19,6 +19,10 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\cbs98\Documents\SSAFY\Spring\my-spring\Spring_Day04_BootPractice2"/>
+			<item value="C:\Users\cbs98\Documents\SSAFY\Spring\my-spring\Spring_Day04_BootPractice1"/>
+			<item value="C:\Users\cbs98\Documents\SSAFY\Spring\my-spring\Spring_Day04_BootPractice5"/>
+			<item value="C:\Users\cbs98\Documents\SSAFY\Spring\my-spring\Spring_Day04_BootPractice6"/>
 			<item value="C:\Users\cbs98\Documents\SSAFY\Spring\my-spring\Spring_Day05_Filter_Interceptor"/>
 			<item value="C:\Users\cbs98\Documents\SSAFY\Spring\my-spring\Spring_Day04_HelloBoot"/>
 		</list>
