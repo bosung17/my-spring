@@ -2,11 +2,13 @@
 <section name="Workbench">
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="Spring_Day07_Mybatis_Java"/>
 			<item value="Spring_Day03_MVC"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="Spring_Day07_Mybatis_Java"/>
 			<item value="Spring_Day03_MVC"/>
 		</list>
 		<list key="version">
