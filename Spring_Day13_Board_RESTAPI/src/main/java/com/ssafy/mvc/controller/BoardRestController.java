@@ -64,7 +64,8 @@ public class BoardRestController {
 		Board board = boardService.readBoard(id);
 //		System.out.println(board);
 		if (board != null) {
-			return ResponseEntity.ok(board);			
+			return ResponseEntity.ok(board);
+//			return new ResponseEntity<Board>(board, HttpStatus.OK);
 		}
 		// 의도한 에러
 		return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
